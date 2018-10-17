@@ -40,10 +40,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="241dp"
-        android:layout_marginTop="129dp"
-        android:layout_marginEnd="41dp"
-        android:layout_marginBottom="346dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="332dp"
         app:srcCompat="@drawable/yaay" />
 
     <ImageView
@@ -83,44 +83,46 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="246dp"
-        android:layout_marginTop="208dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="321dp"
+        android:layout_marginStart="253dp"
+        android:layout_marginTop="207dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="322dp"
         android:text="EDIT" />
 
 
     <EditText
         android:id="@+id/id_donorname"
-        android:layout_width="317dp"
-        android:layout_height="wrap_content"
+        android:layout_width="318dp"
+        android:layout_height="48dp"
         android:layout_alignStart="@+id/null"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="266dp"
-        android:layout_marginEnd="43dp"
-        android:layout_marginBottom="255dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="253dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name     :" />
 
     <EditText
         android:id="@+id/id_address"
-        android:layout_width="317dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/id_donorname"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_marginTop="-255dp"
         android:layout_marginEnd="43dp"
+        android:layout_marginBottom="208dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Address :" />
 
     <EditText
         android:id="@+id/id_email"
-        android:layout_width="317dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/id_address"
         android:layout_alignParentStart="true"
@@ -136,8 +138,8 @@
 
     <EditText
         android:id="@+id/id_contact"
-        android:layout_width="317dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
         android:layout_alignTop="@+id/imageView5"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
@@ -145,7 +147,7 @@
         android:layout_marginStart="2dp"
         android:layout_marginTop="-10dp"
         android:layout_marginEnd="41dp"
-        android:layout_marginBottom="105dp"
+        android:layout_marginBottom="101dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Contact :" />
